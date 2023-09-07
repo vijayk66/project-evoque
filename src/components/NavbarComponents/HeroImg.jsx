@@ -3,7 +3,7 @@ function HeroImg() {
     <div className="hero-img w-100 position-relative mt-4 mb-5 heroContainer rounded-4">
       <img
         className="w-100 h-100"
-        src="./src/assets/hero-img.png"
+        src="./assets/hero-img.png"
         alt="hero-img"
       />
       <div
