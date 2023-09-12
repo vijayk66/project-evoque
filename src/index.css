@@ -54,7 +54,7 @@
   border: 2px solid #3349ee;
 }
 
-.cursor {
+.noCursor {
   cursor: not-allowed;
   color: #a9a9a9;
 }

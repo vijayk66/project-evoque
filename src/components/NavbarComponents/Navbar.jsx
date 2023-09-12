@@ -1,9 +1,10 @@
+import { useState } from "react";
+import React from "react";
+
 import Button from "../customComponents/Button";
 import Navbrand from "./Navbrand";
 import NavItems from "./NavItems";
-import React from "react";
 import ModalForm from "../customComponents/ModalForm";
-import { useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

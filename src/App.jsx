@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy} from "react";
 
 const Navbar = lazy(() => import("./components/NavbarComponents/Navbar"));
 const HeroImg = lazy(() => import("./components/NavbarComponents/HeroImg"));
@@ -8,6 +8,14 @@ const ProductProvider = lazy(() =>
   import("./components/customContext/ProductContext")
 );
 const Spinner = lazy(() => import("./components/customComponents/Spinner"));
+
+
+// import Spinner from "./components/customComponents/Spinner";
+// import Navbar from "./components/NavbarComponents/Navbar";
+// import HeroImg from "./components/NavbarComponents/HeroImg";
+// import Main from "./components/MainComponents/Main";
+// import Footer from "./components/FooterComponents/Footer";
+// import ProductProvider from "./components/customContext/ProductContext";
 
 function App() {
   return (

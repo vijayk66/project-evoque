@@ -12,6 +12,7 @@ ModalForm.propTypes = {
 };
 
 function ModalForm({ setIsOpen, type, btn, user, forgot }) {
+  
   const [userName, setUserName] = useState("");
   const [userPassword, setUserPassword] = useState("");
 
