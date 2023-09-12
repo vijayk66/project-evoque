@@ -13,7 +13,7 @@ function Footer() {
       <div className="mt-5 mb-5 position-relative footer">
         <img
           className="w-100 h-100 rounded-2"
-          src={"/assets/footer.png"}
+          src="/assets/footer.png"
           alt="footer-img"
         />
         <div
